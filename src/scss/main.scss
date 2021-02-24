@@ -1,0 +1,13 @@
+@import "./var";
+
+.div {
+  color: $color;
+  box-shadow: 0 0 5px red;
+  ::placeholder {
+    color: red;
+  }
+  font-size: 10px;
+}
+.div2{
+    box-shadow: 0 0 5px red;
+}
